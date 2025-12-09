@@ -1,0 +1,52 @@
+# ===============================
+# Node modules - ignore for all subfolders
+# ===============================
+backend/node_modules/
+frontend/node_modules/
+dashboard/node_modules/
+
+# ===============================
+# Environment files
+# ===============================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ===============================
+# Build / cache folders
+# ===============================
+backend/dist/
+backend/build/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+dashboard/dist/
+dashboard/build/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===============================
+# Miscellaneous
+# ===============================
+*.cache
